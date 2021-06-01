@@ -44,6 +44,5 @@ jobs:
           ls
           sudo apt install hugo
           cd blog
-          ls
           hugo -D
-          ls
+          gsutil rsync -r public gs://${{ secrets.TECH_BUCKET }}
