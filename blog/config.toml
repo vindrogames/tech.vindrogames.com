@@ -1,0 +1,4 @@
+baseURL = "https://tech.vindrogames.com/"
+languageCode = "en-us"
+title = "Vindrogames Tech"
+theme = "ananke"
