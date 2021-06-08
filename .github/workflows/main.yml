@@ -42,4 +42,4 @@ jobs:
           sudo apt install hugo
           cd blog
           hugo -D
-          gsutil rsync -r public gs://${{ secrets.TECH_BUCKET }}
+          gsutil rsync -d -r public gs://${{ secrets.TECH_BUCKET }}
