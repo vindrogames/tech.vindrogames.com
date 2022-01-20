@@ -1,7 +1,7 @@
 ---
 title: "Adventures in the Cloud"
 date: 2021-06-09T09:10:43+02:00
-draft: true
+draft: false
 ---
 
 
