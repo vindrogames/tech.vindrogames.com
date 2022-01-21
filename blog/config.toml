@@ -1,4 +1,55 @@
-baseURL = "https://tech.vindrogames.com/"
+baseURL = "http://localhost/"
 languageCode = "en-us"
-title = "Vindrogames Tech"
-theme = "ananke"
+title = "Vindrogames tech"
+theme="archie"
+copyright = "© Vindrogames"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate=6 # articles per page
+
+[params]
+	mode="light" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "Tech articles discussing technologies used on Vindrogames"
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/vindrogames/tech.vindrogames.com"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/vindrogames/"
+
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://gitlab.com/zeneke/"
+
+# Main menu Items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
