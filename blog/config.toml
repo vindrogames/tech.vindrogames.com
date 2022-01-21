@@ -1,4 +1,4 @@
-baseURL = "http://localhost/"
+baseURL = "http://tech.vindrogames.com/"
 languageCode = "en-us"
 title = "Vindrogames tech"
 theme="archie"
